@@ -1,0 +1,31 @@
+{
+  "name": "discord-bot",
+  "version": "0.1.0",
+  "description": "Discord test bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rezvitsky/discord-bot.git"
+  },
+  "keywords": [
+    "discord",
+    "rezvitsky",
+    "bot"
+  ],
+  "author": "Rezvitsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rezvitsky/discord-bot/issues"
+  },
+  "homepage": "https://github.com/rezvitsky/discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  },
+  "devDependencies": {
+    "dotenv": "^14.2.0",
+    "nodemon": "^2.0.15"
+  }
+}
